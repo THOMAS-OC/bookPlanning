@@ -5,3 +5,13 @@ input, button {
     display: block;
 
 }
+
+button{
+    background-color: rgb(50, 119, 255);
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-style: 25px;
+    letter-spacing: 5px;
+    border-radius: 20px;
+}
