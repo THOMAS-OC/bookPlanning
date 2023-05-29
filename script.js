@@ -21,7 +21,10 @@ btn.addEventListener("click", () => {
     var newDiv = document.createElement("div");
     // ajoute le nœud texte au nouveau div créé
     section.appendChild(newDiv);
-    newDiv.innerHTML= "<p> toto </p>"
+    newDiv.innerHTML= `<h2> ${nameBook.value} </h2>
+    <p> Date d'emprunt : <strong> ${date} </strong> <br> <br>
+     Date de retour : <strong> ${dateAddDays(21)} </strong> </p>
+    `
 })
 
 localStorage.setItem("Histoire de pouvoir", "date")
