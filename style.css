@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+h1{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 35px;
+    letter-spacing: 10px;
+    text-decoration: underline;
+}
+
 input, button {
     width: 90vw;
     height: 5vh;
