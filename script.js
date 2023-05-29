@@ -26,6 +26,7 @@ btn.addEventListener("click", () => {
         newDiv.innerHTML= `<h2> ${nameBook.value} </h2>
         <p> Date d'emprunt : <strong> ${date} </strong> <br> <br>
         Date de retour : <strong> ${dateAddDays(21)} </strong> </p>
+        <h3> X </h3>
         `
     }
 })
