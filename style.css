@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 input, button {
     width: 90vw;
     height: 5vh;
@@ -14,4 +20,23 @@ button{
     font-style: 25px;
     letter-spacing: 5px;
     border-radius: 20px;
+}
+
+section{
+    width: 100vw;
+    min-height: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div{
+    background-color: yellow;
+    width: 90vw;
+    height: 600px;
+    margin-top: 20px;
 }
