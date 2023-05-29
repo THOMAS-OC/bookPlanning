@@ -47,9 +47,9 @@ for (let i=0; i<localStorage.length; i++) {
 
 btnDelete.forEach(e => {
     e.addEventListener("click", () => {
-        alert("test")
         let clef = e.parentNode.querySelector("h2")
-        console.log(clef)
-        // e.parentNode.remove()
+        console.log(clef.textContent)
+        console.log(localStorage.removeItem(clef.textContent.trim()))
+        e.parentNode.remove()
     })
 })
